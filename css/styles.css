@@ -19,6 +19,7 @@ body {
   line-height: 2.8rem;
   font-weight: 400;
   background: #fff;
+  border: 1px solid red;
 }
 
 .toolbar {
@@ -37,4 +38,21 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  /* letter-spacing: ; */
+  padding: 6.8rem 0 2.4rem 0;
+}
+
+.greeting {
+  color: #172b4d;
+}
+
+.job {
+  display: block;
+  color: #36b37e;
 }
