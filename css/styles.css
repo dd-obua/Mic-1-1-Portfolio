@@ -31,3 +31,10 @@ body {
   width: 2.4rem;
   cursor: pointer;
 }
+
+.headline {
+  background-image: url(../img/headline-background.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
