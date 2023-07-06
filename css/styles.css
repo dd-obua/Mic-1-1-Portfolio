@@ -64,3 +64,9 @@ h1 {
 .job {
   color: #36b37e;
 }
+
+.advert {
+  line-height: 2.8rem;
+  font-size: 1.7rem;
+  padding: 0 2rem;
+}
