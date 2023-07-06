@@ -19,7 +19,6 @@ body {
   line-height: 2.8rem;
   font-weight: 400;
   padding: 0 2.7rem;
-  background: #e5e5e5;
 }
 
 img {
@@ -36,4 +35,15 @@ img {
 .hamburger-icon {
   width: 2.4rem;
   cursor: pointer;
+}
+
+.headline {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
