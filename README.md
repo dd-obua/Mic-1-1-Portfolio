@@ -71,6 +71,10 @@
 
 To get a local copy up and running, follow these steps.
 
+- Click this [link](https://github.com/dd-obua/Mic-Portfolio-setup-and-mobile-first) to open the project on GitHub
+- Click on the Code button to copy the clone-link
+- Use `git clone <clone-link>` command to clone the project
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -88,17 +92,26 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
+- `npm install`
+
 ### Usage
 
 To run the project, execute the following command:
+
+- Open the index.html file with live-server
 
 ### Run tests
 
 To run tests, run the following command:
 
+- `npx hint .` for HTML
+- `"**/*.{css,scss}"` for CSS
+
 ### Deployment
 
 You can deploy this project using:
+
+- This project will be deployed using github pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +168,5 @@ I would like to thank Denis Obote, Lucy and Sayed for their encouragement.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
