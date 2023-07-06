@@ -19,6 +19,7 @@ body {
   line-height: 2.8rem;
   font-weight: 400;
   padding: 0 2.7rem;
+  border: 1px solid red;
 }
 
 img {
@@ -38,15 +39,11 @@ img {
 }
 
 .headline {
-  position: relative;
-  border: 1px solid red;
-}
-
-.background {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
+  max-width: 37.5rem;
+  background-image: url(../img/headline-background.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 0;
 }
 
 h1 {
