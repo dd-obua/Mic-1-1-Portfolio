@@ -107,7 +107,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 - `npx hint .` for HTML
-- `"**/*.{css,scss}"` for CSS
+- `npx stylelint "**/*.{css,scss}"` for CSS
 
 ### Deployment
 
