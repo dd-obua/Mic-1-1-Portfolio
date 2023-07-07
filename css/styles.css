@@ -69,15 +69,12 @@ h1 {
 
 p {
   line-height: 2.8rem;
-  padding: 1.5rem 2.4rem;
   color: #172b4d;
 }
 
-/* .advert {
-  line-height: 2.8rem;
+.advert {
   padding: 1.5rem 2.4rem;
-  color: #172b4d;
-} */
+}
 
 .social__links {
   display: flex;
@@ -111,6 +108,9 @@ h2 {
   font-weight: 700;
   line-height: 5.2rem;
   color: #172b4d;
+}
+
+.works__heading {
   margin-bottom: 2.4rem;
 }
 
@@ -181,7 +181,8 @@ h2 {
 }
 
 .statement {
-  margin-bottom: 2.4rem;
+  padding: 1.6rem 2.4rem 0 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .about-me {
@@ -189,7 +190,15 @@ h2 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
-  padding-top: 2.4rem;
+  padding-top: 6.4rem;
+  position: relative;
+}
+
+.about-me__heading::before {
+  content: url(../img/about-me/mask-about-me.svg);
+  position: absolute;
+  top: 0;
+  right: 0.6rem;
 }
 
 .capabilities {
@@ -200,6 +209,7 @@ h2 {
   margin: 2.4rem;
   border-radius: 0.5rem;
   background: #ebf0ee;
+  padding-bottom: 3.6rem;
 }
 
 .cap-img {
@@ -215,7 +225,7 @@ h2 {
   font-weight: 600;
   line-height: 3.2rem;
   color: #344563;
-  margin-bottom: 1.2rem;
+  margin-bottom: 3.6rem;
 }
 
 .item {
@@ -227,4 +237,24 @@ h2 {
   border-radius: 0.5rem;
   color: #36b37e;
   background: #fff;
+}
+
+.languages__list {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.frameworks__list {
+  padding: 0 2.4rem;
+}
+
+.capybara,
+.selenium {
+  margin-top: 0.6rem;
+}
+
+.db-mgmt,
+.version-ctrl {
+  margin-bottom: 0.6rem;
 }
