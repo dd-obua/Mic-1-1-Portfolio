@@ -137,12 +137,12 @@ h2 {
 .works__cards {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 0 2.4rem;
 }
 
 .works__card {
   background: #ebf0ee;
   border: 1px solid #ebf0ee;
-  margin: 0 2.4rem;
   margin-bottom: 2.4rem;
   border-radius: 0.5rem;
 }
