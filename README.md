@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: Setup and mobile version <a name="about-project"></a>
+# 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Setup and mobile version** is a setup project for my portfolio website and the first part of its mobile version.
+**Portfolio: Setup and mobile version** is the mobile version of my portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +53,9 @@
 - **Header - containing an hamburger menu**
 - **Welcome text and an assurance to clients that I can offer solutions that require coding**
 - **Links to my social media sites**
-- **A beautiful background**
+- **A show of my recent works in the works section**
+- **A show of my capabilities (languages, frameworks and skills) in the about me section**
+- **Beautiful background images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +107,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 - `npx hint .` for HTML
-- `"**/*.{css,scss}"` for CSS
+- `npx stylelint "**/*.{css,scss}"` for CSS
 
 ### Deployment
 
@@ -131,9 +133,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **My recent work**
-- [ ] **About me - giving details about my work**
-- [ ] **Contat form - for potenteial clients to get in touch with me**
+- [ ] **Contat page - for potenteial clients to get in touch with me**
+- [ ] **A modal window toggled by clicking the hamburger menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
