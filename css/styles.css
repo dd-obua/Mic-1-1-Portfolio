@@ -24,6 +24,10 @@ body {
   border: 1px solid #e5e5e5;
 }
 
+li{
+  list-style: none;
+}
+
 .toolbar {
   display: flex;
   justify-content: flex-end;
