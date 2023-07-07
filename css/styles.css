@@ -134,6 +134,11 @@ h2 {
   display: block;
 }
 
+.works__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .works__card {
   background: #ebf0ee;
   border: 1px solid #ebf0ee;
