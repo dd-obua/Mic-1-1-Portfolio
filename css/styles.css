@@ -99,7 +99,6 @@ p {
 }
 
 .works {
-  /* border: 1px solid red; */
   padding-top: 4.8rem;
 }
 
@@ -303,8 +302,19 @@ h2 {
   margin-bottom: 3.6rem;
 }
 
+footer {
+  position: relative;
+}
+
 footer .social__links {
   margin-bottom: 3.6rem;
+}
+
+footer address::after {
+  content: url(../img/frame.svg);
+  position: absolute;
+  right: 0;
+  top: -9rem;
 }
 
 .hr-bar {
