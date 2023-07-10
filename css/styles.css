@@ -285,3 +285,16 @@ h2 {
 .contact__form input {
   font-style: italic;
 }
+
+.submit-form {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  background: #36b37f;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  margin-bottom: 3.6rem;
+}
