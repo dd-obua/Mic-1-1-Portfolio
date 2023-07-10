@@ -99,7 +99,6 @@ p {
 }
 
 .works {
-  /* border: 1px solid red; */
   padding-top: 4.8rem;
 }
 
@@ -257,4 +256,73 @@ h2 {
 .db-mgmt,
 .version-ctrl {
   margin-bottom: 0.6rem;
+}
+
+.contact {
+  padding: 0 2.4rem;
+}
+
+.contact__message {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  padding: 4.8rem 0;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: inherit;
+  padding: 1.8rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 0.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.contact__form input {
+  font-style: italic;
+}
+
+.submit-form {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  background: #36b37f;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  margin-bottom: 3.6rem;
+}
+
+.contact-email {
+  margin-bottom: 3.6rem;
+}
+
+footer {
+  position: relative;
+}
+
+footer .social__links {
+  margin-bottom: 3.6rem;
+}
+
+footer address::after {
+  content: url(../img/frame.svg);
+  position: absolute;
+  right: 0;
+  top: -9rem;
+}
+
+.hr-bar {
+  height: 0.5rem;
+  background: #000;
+  width: 30%;
+  margin: 0 auto;
+  border-style: none;
+  border-radius: 0.3rem;
+  margin-bottom: 0.8rem;
 }

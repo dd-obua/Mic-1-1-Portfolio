@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio Setup</b></h3>
+  <h3><b>Portfolio: Mobile version</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Setup and mobile version** is the mobile version of my portfolio website.
+**Portfolio: Mobile version** is the mobile version of my portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,6 +48,12 @@
   </ul>
 </details>
 
+<details>
+  <ul>
+    <li><a href="">Formspree</a></li>
+  </ul>
+</details>
+
 ### Key Features <a name="key-features"></a>
 
 - **Header - containing an hamburger menu**
@@ -55,6 +61,8 @@
 - **Links to my social media sites**
 - **A show of my recent works in the works section**
 - **A show of my capabilities (languages, frameworks and skills) in the about me section**
+- **Contact section - giving opportunity for feedback through a contact form**
+- **A footer - containing contact email and links to social and technical sites**
 - **Beautiful background images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,8 +141,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Contat page - for potenteial clients to get in touch with me**
 - [ ] **A modal window toggled by clicking the hamburger menu**
+- [ ] **A desktop version of this website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +168,7 @@ If you like this project, all form of contribution are welcome.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Denis Obote, Lucy and Sayed for their encouragement.
+I would like to thank Denis Obote, Lucy and Sayed for their encouragement as well as Burhan contributing code and technical advice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
