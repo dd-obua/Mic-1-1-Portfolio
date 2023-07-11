@@ -85,8 +85,9 @@ p {
 
 .social__links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 2.4rem;
   padding: 0 10.2rem;
   margin-bottom: 6.4rem;
 }
