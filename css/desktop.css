@@ -110,4 +110,18 @@
     margin: 0%;
     padding-bottom: 0;
   }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin: 0 20rem;
+    padding: 0;
+    text-align: left;
+  }
+
+  .contact__message {
+    font-size: 3rem;
+    width: 90%;
+    padding-top: 6rem;
+  }
 }
