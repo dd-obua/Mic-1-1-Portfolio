@@ -42,4 +42,9 @@
   .my-name {
     display: inline;
   }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+  }
 }
