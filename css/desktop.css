@@ -21,13 +21,12 @@
   }
 
   nav {
-    margin: 2.4rem auto;
+    margin: 0 auto;
   }
 
   .desktop-nav {
     display: flex;
     justify-content: center;
-    gap: 2.4rem;
   }
 
   .desktop-nav__item a {
