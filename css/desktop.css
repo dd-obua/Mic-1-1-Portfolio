@@ -71,4 +71,17 @@
   .indicator {
     display: none;
   }
+
+  .works__cards {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3.6rem;
+    column-gap: 2.4rem;
+    margin: 0 20rem;
+  }
+
+  .works__card {
+    margin-bottom: 0;
+  }
 }
