@@ -67,4 +67,8 @@
   .works__heading span {
     display: inline;
   }
+
+  .indicator {
+    display: none;
+  }
 }
