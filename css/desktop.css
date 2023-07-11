@@ -97,4 +97,18 @@
   .resume {
     margin-bottom: 3.6rem;
   }
+
+  .capabilities {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .capability {
+    width: 37rem;
+    height: 32rem;
+    margin: 0%;
+    padding-bottom: 0;
+  }
 }
