@@ -32,9 +32,9 @@
   .desktop-nav__item a {
     color: #172b4d;
   }
-}
 
-.greeting,
-.my-name {
-  display: inline;
+  .greeting,
+  .my-name {
+    display: inline;
+  }
 }
