@@ -36,6 +36,10 @@ a {
   padding: 1.2rem 3.2rem;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .hamburger-icon {
   width: 2.4rem;
   cursor: pointer;
