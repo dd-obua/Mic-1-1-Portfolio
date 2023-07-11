@@ -89,6 +89,10 @@
     margin-bottom: 0;
   }
 
+  .about-me {
+    margin-bottom: 20rem;
+  }
+
   .statement {
     margin: 0 auto;
     margin-bottom: 3.2rem;
@@ -114,7 +118,7 @@
   .contact {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    margin: 0 20rem;
+    margin: 0 16rem;
     padding: 0;
     text-align: left;
   }
@@ -128,5 +132,11 @@
   .contact-email,
   .hr-bar {
     display: none;
+  }
+
+  footer .social__links {
+    margin: 0;
+    border-top: 1px solid #dfe1e6;
+    padding: 2.4rem 0;
   }
 }
