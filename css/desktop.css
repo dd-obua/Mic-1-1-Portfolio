@@ -33,3 +33,8 @@
     color: #172b4d;
   }
 }
+
+.greeting,
+.my-name {
+  display: inline;
+}
