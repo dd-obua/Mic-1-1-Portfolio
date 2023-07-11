@@ -124,4 +124,8 @@
     width: 90%;
     padding-top: 6rem;
   }
+
+  .contact-email {
+    display: none;
+  }
 }
