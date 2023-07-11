@@ -125,7 +125,8 @@
     padding-top: 6rem;
   }
 
-  .contact-email {
+  .contact-email,
+  .hr-bar {
     display: none;
   }
 }
