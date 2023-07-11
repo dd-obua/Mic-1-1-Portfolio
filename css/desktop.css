@@ -60,8 +60,7 @@
   }
 
   .works {
-    margin-top: 12.8rem;
-    margin-bottom: 12.8rem;
+    margin-top: 12.8rem 0;
   }
 
   .works__heading {
