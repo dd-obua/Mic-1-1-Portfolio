@@ -8,4 +8,10 @@
   footer address::after {
     content: '';
   }
+
+  body {
+    background-image: url('../img/desktop/header-illustration.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
 }
