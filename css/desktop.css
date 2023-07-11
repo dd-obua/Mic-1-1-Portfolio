@@ -59,6 +59,10 @@
     margin-bottom: 1.2rem;
   }
 
+  .works {
+    margin: 0 12.5rem;
+  }
+
   .works__heading {
     margin-top: 25rem;
     margin-bottom: 6.4rem;
@@ -73,7 +77,6 @@
   }
 
   .works__cards {
-    margin: 0 15rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 3.6rem;
