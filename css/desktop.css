@@ -86,6 +86,7 @@
   }
 
   .works__card {
+    min-width: 37rem;
     margin-bottom: 0;
   }
 
