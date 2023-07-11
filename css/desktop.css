@@ -9,13 +9,17 @@
     content: '';
   }
 
-  .mobile-nav {
-    display: none;
-  }
-
   body {
     background-image: url('../img/desktop/header-illustration.svg');
     background-position: top right;
     background-repeat: no-repeat;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
   }
 }
