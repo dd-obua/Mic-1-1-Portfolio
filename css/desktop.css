@@ -22,11 +22,13 @@
 
   nav {
     margin: 0 auto;
+    font-size: 1.6rem;
   }
 
   .desktop-nav {
     display: flex;
     justify-content: center;
+    gap: 1.2rem;
   }
 
   .desktop-nav__item a {
@@ -34,8 +36,10 @@
   }
 
   h1 {
-    padding-top: 12.8rem;
-    padding-bottom: 2.4rem;
+    font-size: 4.8rem;
+    font-weight: 800;
+    line-height: 6rem;
+    margin-top: 12.8rem;
   }
 
   .greeting,
@@ -51,7 +55,7 @@
 
   p {
     line-height: 3.2rem;
-    width: 55%;
+    width: 60%;
   }
 
   .advert {
