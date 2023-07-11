@@ -105,10 +105,10 @@
   }
 
   .capabilities {
+    margin: 4.8rem 15rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.4rem;
-    margin: 4.8rem 15rem;
+    column-gap: 2.4rem;
   }
 
   .capability {
