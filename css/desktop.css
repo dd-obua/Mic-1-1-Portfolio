@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  .headline,
+  .about-me {
+    background-image: none;
+  }
+
+  .about-me__heading::before,
+  footer address::after {
+    content: '';
+  }
+}
