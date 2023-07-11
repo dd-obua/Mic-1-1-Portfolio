@@ -60,12 +60,17 @@ h1 {
   padding-top: 6rem;
 }
 
+.greeting,
+.my-name,
+.job {
+  display: block;
+}
+
 .greeting {
   color: #172b4d;
 }
 
 .job {
-  display: block;
   color: #36b37e;
 }
 
