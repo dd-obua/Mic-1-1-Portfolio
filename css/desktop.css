@@ -46,11 +46,6 @@
   .headline {
     display: flex;
     flex-direction: column;
-  }
-
-  .advert {
-    width: 55%;
-    align-self: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 15rem;
   }
 }
