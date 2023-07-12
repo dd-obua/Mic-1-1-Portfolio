@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: Mobile version</b></h3>
+  <h3><b>Portfolio: Desktop version</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Mobile version** is the mobile version of my portfolio website.
+**Portfolio: Desktop version** is the mobile version of my portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,6 +63,7 @@
 - **A show of my capabilities (languages, frameworks and skills) in the about me section**
 - **Contact section - giving opportunity for feedback through a contact form**
 - **A footer - containing contact email and links to social and technical sites**
+- **A desktop version - responsive to screen sizes from 768px and larger**
 - **Beautiful background images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,7 +143,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **A modal window toggled by clicking the hamburger menu**
-- [ ] **A desktop version of this website**
+- [ ] **A modal window for the desktop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
