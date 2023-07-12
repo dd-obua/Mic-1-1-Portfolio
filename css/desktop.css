@@ -79,7 +79,9 @@
   }
 
   .works {
-    margin: 0 12.5rem;
+    width: 84%;
+    margin: 0 auto;
+    /* margin: 0 12.5rem; */
   }
 
   .works__heading {
@@ -109,6 +111,7 @@
 
   .about-me {
     background-image: url('../img/desktop/illustration-about-me-2.svg');
+    width: 84%;
     margin: 0 auto;
     margin-bottom: 20rem;
     position: relative;
@@ -131,7 +134,8 @@
   }
 
   .capabilities {
-    margin: 6.4rem 15rem;
+    width: 84%;
+    margin: 6.4rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.4rem;
@@ -145,7 +149,8 @@
   }
 
   .contact {
-    margin: 0 15rem;
+    width: 84%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     padding: 0;
