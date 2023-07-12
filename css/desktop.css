@@ -99,7 +99,7 @@
 
   .works__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(21rem, 36.9rem));
     row-gap: 3.6rem;
     column-gap: 2.4rem;
   }
@@ -137,7 +137,7 @@
     width: 84%;
     margin: 6.4rem 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(21rem, 36.9rem));
     column-gap: 2.4rem;
   }
 
