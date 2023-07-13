@@ -162,8 +162,7 @@ h2 {
 }
 
 .works__categories {
-  display: flex;
-  justify-content: center;
+  display: block;
   gap: 1rem;
   margin-bottom: 3.6rem;
 }
