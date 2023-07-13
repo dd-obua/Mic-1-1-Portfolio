@@ -10,7 +10,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo]
+  - [🚀 Live Demo]()
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -37,20 +37,23 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="">HTML</a></li>
+    <li><a href="#">React.js</a></li>
   </ul>
 </details>
 
 <details>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="">CSS</a></li>
+    <li><a href="#">Express.js</a></li>
   </ul>
 </details>
 
 <details>
+<summary>Formspree</summary>
   <ul>
-    <li><a href="">Formspree</a></li>
+    <li><a href="#">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -84,9 +87,9 @@
 
 To get a local copy up and running, follow these steps.
 
-- Click this [link](https://github.com/dd-obua/Mic-Portfolio-setup-and-mobile-first) to open the project on GitHub
+- Click this [link](https://github.com/dd-obua/Mic-1-1-Portfolio) to open the project on GitHub
 - Click on the Code button to copy the clone-link
-- Use `git clone <clone-link>` command to clone the project
+- Use `git clone git@github.com:dd-obua/Mic-1-1-Portfolio.git ` command to clone the project.
 
 ### Prerequisites
 
@@ -98,8 +101,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- cd your-folder
-- git clone git@github.com:dd-obua/Mic-Portfolio-setup-and-mobile-first.git
+- `cd your-folder`
+- `git clone git@github.com:dd-obua/Mic-1-1-Portfolio.git`
 
 ### Install
 
@@ -134,9 +137,9 @@ You can deploy this project using:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/dd-obua/)
-- Twitter: [@twitterhandle](https://twitter.com/DenisDanielObu1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-daniel-obua-99024a229/)
+- GitHub: [dd-obua](https://github.com/dd-obua/)
+- Twitter: [@DenisDanielObu1](https://twitter.com/DenisDanielObu1)
+- LinkedIn: [denis-daniel-obua-99024a229](https://www.linkedin.com/in/denis-daniel-obua-99024a229/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
