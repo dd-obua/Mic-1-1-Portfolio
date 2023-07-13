@@ -68,13 +68,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<<<<<<< HEAD
-
 <!-- LIVE DEMO -->
 
-=======
+## 🚀 Live Demo <a name="live-demo"></a>
 
-> > > > > > > 87329d5 (Removed live demo from README file)
+- Live Demo Link (N/A) coming soon.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
