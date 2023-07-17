@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: Desktop version</b></h3>
+  <h3><b>Portfolio: Application Deploy</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -10,7 +10,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo]()
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Desktop version** is the mobile version of my portfolio website.
+**Portfolio: Application Deploy** the deployment of my Portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,21 +39,21 @@
 <details>
   <summary>HTML</summary>
   <ul>
-    <li><a href="#">React.js</a></li>
+    <li><a href="#"></a></li>
   </ul>
 </details>
 
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="#">Express.js</a></li>
+    <li><a href="#"></a></li>
   </ul>
 </details>
 
 <details>
 <summary>Formspree</summary>
   <ul>
-    <li><a href="#">PostgreSQL</a></li>
+    <li><a href="#"></a></li>
   </ul>
 </details>
 
@@ -75,9 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Live Demo Link](https://dd-obua.github.io/Mic-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,9 +85,9 @@
 
 To get a local copy up and running, follow these steps.
 
-- Click this [link](https://github.com/dd-obua/Mic-1-1-Portfolio) to open the project on GitHub
+- Click this [link](https://github.com/dd-obua/Mic-Portfolio) to open the project on GitHub
 - Click on the Code button to copy the clone-link
-- Use `git clone git@github.com:dd-obua/Mic-1-1-Portfolio.git ` command to clone the project.
+- Use `git clone git@github.com:dd-obua/Mic-Portfolio.git` command to clone the project.
 
 ### Prerequisites
 
@@ -102,7 +100,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - `cd your-folder`
-- `git clone git@github.com:dd-obua/Mic-1-1-Portfolio.git`
+- `git clone git@github.com:dd-obua/Mic-Portfolio.git`
 
 ### Install
 
