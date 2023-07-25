@@ -9,3 +9,9 @@ menuIcon.addEventListener('click', function () {
   close.style.display = 'block';
   menuIcon.style.display = 'none';
 });
+
+close.addEventListener('click', () => {
+  nav.classList.remove('nav')
+  close.style.display = 'none';
+  menuIcon.style.display = 'block';
+})
