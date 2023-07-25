@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+header {
+  z-index: 5;
+}
+
 .mobile-nav {
   display: flex;
   justify-content: flex-end;
@@ -83,7 +87,7 @@ a {
   position: absolute;
   right: 8.5%;
   cursor: pointer;
-  z-index: 10;
+  z-index: 20;
 }
 
 .headline {
