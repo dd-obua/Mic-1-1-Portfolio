@@ -1,4 +1,8 @@
 'use strict';
 
-const humbergerIcon = document.querySelector('.hamburger-icon');
-const desktopNav = document.querySelector('.desktop-nav');
+const menuIcon = document.querySelector('.hamburger-icon');
+const nav = document.querySelector('.desktop-nav');
+
+menuIcon.addEventListener('click', function () {
+  nav.classList.add('nav');
+});
