@@ -65,7 +65,7 @@ a {
 }
 
 .nav > li a {
-  color: #3a4a42 !important;
+  color: #3a4a42;
 }
 
 .nav > li:not(:last-child) {
