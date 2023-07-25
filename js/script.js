@@ -11,5 +11,11 @@ const showMobileMenu = function () {
   menuIcon.style.display = 'none';
 };
 
+const hideMobileMenu = function () {
+  nav.classList.remove('nav');
+  menuIcon.style.display = 'block';
+};
+
 menuIcon.addEventListener('click', showMobileMenu);
-    
+
+close.addEventListener('click', hideMobileMenu);
