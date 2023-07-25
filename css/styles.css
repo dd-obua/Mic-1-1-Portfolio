@@ -59,6 +59,8 @@ header {
 
 .nav > li {
   padding-left: 2.8rem;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 .nav > li a {
