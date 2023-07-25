@@ -19,3 +19,5 @@ const hideMobileMenu = function () {
 menuIcon.addEventListener('click', showMobileMenu);
 
 close.addEventListener('click', hideMobileMenu);
+
+menuItems.forEach(item => item.addEventListener('click', hideMobileMenu));
