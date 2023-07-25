@@ -55,6 +55,7 @@ header {
   height: 100vh;
   background: #fff;
   font-size: 3.2rem;
+  padding-top: 4.8rem;
 }
 
 .nav > li {
