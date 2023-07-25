@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: Application Deploy</b></h3>
+  <h3><b>Portfolio: Mobile menu</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Application Deploy** the deployment of my Portfolio website.
+**Portfolio: Mobile menu** a show of the mobile menu of my porfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,6 +67,7 @@
 - **Contact section - giving opportunity for feedback through a contact form**
 - **A footer - containing contact email and links to social and technical sites**
 - **A desktop version - responsive to screen sizes from 768px and larger**
+- **A Mobile menu**
 - **Beautiful background images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -120,6 +121,7 @@ To run tests, run the following command:
 
 - `npx hint .` for HTML
 - `npx stylelint "**/*.{css,scss}"` for CSS
+- `npx eslint .` for JavaScript
 
 ### Deployment
 
@@ -147,6 +149,8 @@ You can deploy this project using:
 
 - [ ] **A modal window toggled by clicking the hamburger menu**
 - [ ] **A modal window for the desktop version**
+- [ ] **Form validation**
+- [ ] **Preserving form data using local storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
