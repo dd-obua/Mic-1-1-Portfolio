@@ -335,6 +335,16 @@ h2 {
   font-style: italic;
 }
 
+.email-error {
+  display: none;
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  color: #9e2424;
+  margin-top: -1.8rem;
+  margin-bottom: 0.8rem;
+}
+
 .submit-form {
   border: none;
   cursor: pointer;

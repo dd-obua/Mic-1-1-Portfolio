@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Mobile menu** a show of the mobile menu of my porfolio website.
+**Portfolio: Validate contacat form** is where I validate email input to check if it's in lowercase.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,6 +65,7 @@
 - **A show of my recent works in the works section**
 - **A show of my capabilities (languages, frameworks and skills) in the about me section**
 - **Contact section - giving opportunity for feedback through a contact form**
+- **Contact section - with functionality to validate email input**
 - **A footer - containing contact email and links to social and technical sites**
 - **A desktop version - responsive to screen sizes from 768px and larger**
 - **A Mobile menu**
