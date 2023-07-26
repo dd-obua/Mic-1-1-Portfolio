@@ -64,6 +64,10 @@ a {
   font-weight: 600;
 }
 
+.nav > li a {
+  color: #3a4a42;
+}
+
 .nav > li:not(:last-child) {
   padding-bottom: 4rem;
 }
