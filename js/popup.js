@@ -78,3 +78,9 @@ const mobilePopupHtml = `
     </a>
   </div>
 `;
+
+const generateMobilePopup = () => {
+  const mobilePopupContainer = document.createElement("section");
+  mobilePopupContainer.className = "popup-mobile";
+  mobilePopupContainer.innerHTML = mobilePopupHtml;
+};
