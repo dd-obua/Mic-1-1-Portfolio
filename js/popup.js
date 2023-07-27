@@ -1,4 +1,4 @@
-const works = [
+const workCards = [
   {
     name1: "Multi-Post Stories",
     name2: "Gain+Glory",
