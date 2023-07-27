@@ -47,3 +47,34 @@ const generateWorkCards = () => {
 };
 
 generateWorkCards();
+
+const mobilePopupHtml = `
+  <img src="./img/popup/close-mobile-popup.svg" alt="Mobile popup close icon" class="close-mobile-popup">
+  <img src="./img/popup/snapshot.png" alt="Mobile popup image" class="pop-mobile-img">
+  <h2>Keeping track of hundreds of components</h2>
+  <ul>
+    <li class="works__skill">Ruby on Rails</li>
+    <li class="works__skill">CSS</li>
+    <li class="works__skill">JavaScript</li>
+  </ul>
+
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard
+    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  </p>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard
+    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.
+  </p>
+
+  <div class="link-btns">
+    <a href="" class="link popup-link">
+      <span>See live</span><img src="./img/popup/frame.png" alt="">
+    </a>
+    <a href="" class="link popup-link">
+      <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
+    </a>
+  </div>
+`;
