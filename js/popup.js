@@ -120,3 +120,9 @@ const desktopPopupHtml = `
     relea
   </p>
 `;
+
+const generateDesktopPopup = () => {
+  const desktopPopupContainer = document.createElement("section");
+  desktopPopupContainer.className = "popup-desktop";
+  desktopPopupContainer.innerHTML = desktopPopupHtml;
+};
