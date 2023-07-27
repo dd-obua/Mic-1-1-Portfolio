@@ -84,3 +84,39 @@ const generateMobilePopup = () => {
   mobilePopupContainer.className = "popup-mobile";
   mobilePopupContainer.innerHTML = mobilePopupHtml;
 };
+
+const desktopPopupHtml = `
+  <div class="img-div">
+  <img src="./img/popup/close-desktop-popup.svg" alt="Desktop popup close icon" class="close-desktop-popup">
+  <img src="./img/popup/snapshot-desktop.svg" alt="" class="pop-mobile-img">
+  </div>
+  <div class="row-1">
+    <h2>Keeping track of hundreds of components</h2>
+    <div class="link-btns">
+      <a href="" class="link popup-link">
+        <span>See live</span><img src="./img/popup/frame.png" alt="">
+      </a>
+      <a href="" class="link popup-link">
+        <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
+      </a>
+    </div>
+  </div>
+  <ul>
+    <li class="works__skill">CodeKit</li>
+    <li class="works__skill">GitHub</li>
+    <li class="works__skill">JavaScript</li>
+    <li class="works__skill">Bootstrap</li>
+    <li class="works__skill">Terminal</li>
+    <li class="works__skill">Codepen</li>
+  </ul>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard
+    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the
+    releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+    industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
+    with the
+    relea
+  </p>
+`;
