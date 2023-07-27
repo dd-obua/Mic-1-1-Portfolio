@@ -37,7 +37,7 @@ const cardHtml = `
   <a href="#" class="link see-project">See Project</a>
 `;
 
-const generateCards = () => {
+const generateWorkCards = () => {
   workCards.forEach((card) => {
     const card = document.createElement("artcile");
     card.className = "works__card";
@@ -45,3 +45,5 @@ const generateCards = () => {
     works.appendChild(card);
   });
 };
+
+generateWorkCards();
