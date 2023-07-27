@@ -44,7 +44,3 @@ const generateCards = () => {
     card.innerHtml = cardHtml;
   });
 };
-
-/*
-<a href="#" class="link see-project">See Project</a>
-*/
