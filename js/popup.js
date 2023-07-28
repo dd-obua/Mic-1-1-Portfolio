@@ -65,3 +65,39 @@ const createMobilePopup = () => {
     body.addAdacentHTML("afterbegin", mobilePopupElement);
   });
 };
+
+const createDesktopPopup = () => {
+  cards.forEach((card, index) => {
+    const desktopPopupHtml = `
+      <div class="img-div">
+      <img src="./img/popup/close-desktop-popup.svg" alt="Desktop popup close icon" class="close-desktop-popup">
+      <img src="./img/popup/snapshot-desktop.svg" alt="" class="pop-mobile-img">
+      </div>
+      <div class="row-1">
+        <h2>Keeping track of hundreds of components</h2>
+        <div class="link-btns">
+          <a href="" class="link popup-link">
+            <span>See live</span><img src="./img/popup/frame.png" alt="">
+          </a>
+          <a href="" class="link popup-link">
+            <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <ul>
+        <li class="works__skill">${card.technologies[0]}</li>
+        <li class="works__skill">${card.technologies[1]}</li>
+        <li class="works__skill">${card.technologies[1]}</li>
+        <li class="works__skill">${card.technologies[1]}</li>
+        <li class="works__skill">${card.technologies[1]}</li>
+        <li class="works__skill">${card.technologies[1]}</li>
+      </ul>
+      <p>${card.description1} ${card.description2}</p>
+    `;
+
+    const desktopPopupElement = document.createElement("section");
+    desktopPopupElement.className = "popup-desktop";
+    desktopPopupElement.innerHTML = desktopPopupHtml;
+    body.addAdacentHTML("afterbegin", desktopPopupElement);
+  });
+};
