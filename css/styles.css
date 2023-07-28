@@ -392,6 +392,9 @@ footer address::after {
   width: 100%;
   padding: 1.6rem;
   border-radius: 1.6rem;
+  position: absolute;
+  top: 0;
+  z-index: 20;
 }
 
 .pop-mobile-img {
