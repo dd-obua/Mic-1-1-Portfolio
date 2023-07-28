@@ -193,8 +193,12 @@
     padding-bottom: 4.4rem;
     position: absolute;
     top: 0;
+<<<<<<< HEAD
     z-index: 20;
     overflow-y: scroll;
+=======
+    z-index: 2;
+>>>>>>> 606096e (Correct technologies)
   }
 
   .img-div {
@@ -277,5 +281,9 @@
     font-weight: 400;
     line-height: 3rem;
     text-align: justify;
+  }
+
+  .take-out {
+    display: none;
   }
 }
