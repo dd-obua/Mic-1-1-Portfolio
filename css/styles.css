@@ -434,3 +434,13 @@ footer address::after {
 .pop-desktop-img {
   margin-bottom: 2.4rem;
 }
+
+.close-desktop-popup {
+  width: 2.4rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  background: #ebecf0;
+  margin-bottom: 1.4rem;
+  margin-top: 2.4rem;
+}
