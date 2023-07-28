@@ -1,6 +1,5 @@
 const worksCards = document.querySelector(".works__cards");
 const body = document.querySelector("body");
-const detailsLinks = document.querySelectorAll("see-project");
 
 const cards = [
   {
@@ -117,7 +116,7 @@ const createMobilePopup = () => {
     const mobilePopupElement = document.createElement("section");
     mobilePopupElement.className = "popup-mobile";
     mobilePopupElement.innerHTML = mobilePopupHtml;
-    body.addAdacentHTML("afterbegin", mobilePopupElement);
+    body.appendChild(mobilePopupElement);
   });
 };
 
@@ -153,6 +152,48 @@ const createDesktopPopup = () => {
     const desktopPopupElement = document.createElement("section");
     desktopPopupElement.className = "popup-desktop";
     desktopPopupElement.innerHTML = desktopPopupHtml;
-    body.addAdacentHTML("afterbegin", desktopPopupElement);
+    body.appendChild(desktopPopupElement);
   });
 };
+
+const detailsLinks = document.querySelectorAll(".see-project");
+
+const matches = window.matchMedia("(min-width:768px)");
+
+detailsLinks.forEach((link) => {
+  if (matches) link.addEventListener("click", createDesktopPopup);
+  else link.addEventListener("click", createMobilePopup);
+});
+
+// Close popup
+// const mobilePopup = document.querySelector(".popup-mobile");
+// const desktopPopup = document.querySelector(".popup-desktop");
+// const cancelMobilePopup = document.querySelector(".close-mobile-popup");
+// const cancelDesktopPopup = document.querySelector(".close-desktop-popup");
+
+// const closeMobilePopup = () => {
+//   mobilePopup.style.display = "none";
+// };
+
+// const closeDesktopPopup = () => {
+//   desktopPopup.style.display = "none";
+// };
+
+// const mobilePopup = document.querySelector(".popup-mobile");
+// const desktopPopup = document.querySelector(".popup-desktop");
+// const cancelMobilePopup = document.querySelector(".close-mobile-popup");
+// const cancelDesktopPopup = document.querySelector(".close-desktop-popup");
+
+// const closeMobilePopup = () => {
+//   mobilePopup.style.display = "none";
+// };
+
+// const closeDesktopPopup = () => {
+//   desktopPopup.style.display = "none";
+// };
+
+// if (mobilePopup.style.display === "block")
+//   cancelMobilePopup.addEventListener("click", closeMobilePopup);
+
+// if (desktopPopup.style.display === "block")
+//   cancelDesktopPopup.addEventListener("click", closeDesktopPopup);
