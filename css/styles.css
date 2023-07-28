@@ -444,3 +444,9 @@ footer address::after {
   margin-bottom: 1.4rem;
   margin-top: 2.4rem;
 }
+
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
