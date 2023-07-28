@@ -82,4 +82,9 @@ cards.forEach((card, index) => {
       </ul>
       <a href="#" class="link see-project" data-index="${index}">See Project</a>
     </div>`;
+
+  const cardElement = document.createElement('article');
+  cardElement.className = 'works__card';
+  cardElement.innerHTML = cardElementHtml;
+  worksCards.appendChild(cardElement);
 });
