@@ -176,4 +176,22 @@
     border-top: 1px solid #dfe1e6;
     padding: 2.4rem 0;
   }
+
+  .popup-desktop {
+    max-width: 92rem;
+    padding: 0 2.4rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 4.4rem;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+  }
 }
