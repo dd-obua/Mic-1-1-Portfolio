@@ -99,6 +99,9 @@ const createMobilePopup = () => {
         <li class="works__skill">${card.technologies[0]}</li>
         <li class="works__skill">${card.technologies[1]}</li>
         <li class="works__skill">${card.technologies[2]}</li>
+        <li class="works__skill">${card.technologies[3]}</li>
+        <li class="works__skill">${card.technologies[4]}</li>
+        <li class="works__skill">${card.technologies[5]}</li>
       </ul>
       <p>${card.description1}</p>
       <p>${card.description2}</p>
