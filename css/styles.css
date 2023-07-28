@@ -419,3 +419,14 @@ footer address::after {
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
 }
+
+.link-btns {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.popup-link {
+  display: flex;
+  justify-self: center;
+  gap: 1.2rem;
+}
