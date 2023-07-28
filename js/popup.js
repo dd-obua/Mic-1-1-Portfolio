@@ -118,4 +118,9 @@ const createDesktopPopup = () => {
       <p>${card.description1} ${card.description2}</p>
     `;
   });
+
+  const desktopPopupElement = document.createElement('section');
+  desktopPopupElement.className = 'popup-desktop';
+  desktopPopupElement.innerHTML = desktopPopupHtml;
+  body.appendChild(desktopPopupElement);
 };
