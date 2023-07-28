@@ -1,3 +1,7 @@
+const worksCards = document.querySelector(".works__cards");
+const body = document.querySelector("body");
+const detailsLinks = document.querySelectorAll("see-project");
+
 const cards = [
   {
     name1: "Multi-Post Stories",
