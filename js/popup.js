@@ -83,12 +83,13 @@ cards.forEach((card, index) => {
       <a href="#" class="link see-project" data-index="${index}">See Project</a>
     </div>`;
 
-  const mobilePopupElement = document.createElement('section');
-  mobilePopupElement.className = 'popup-mobile';
-  mobilePopupElement.innerHTML = mobilePopupHtml;
-  body.appendChild(mobilePopupElement);
+  const cardElement = document.createElement('article');
+  cardElement.className = 'works__card';
+  cardElement.innerHTML = cardElementHtml;
+  worksCards.appendChild(cardElement);
 });
 
+// Create mobile popup
 const createMobilePopup = () => {
   cards.forEach((card, index) => {
     const mobilePopupHtml = `
@@ -99,9 +100,6 @@ const createMobilePopup = () => {
         <li class="works__skill">${card.technologies[0]}</li>
         <li class="works__skill">${card.technologies[1]}</li>
         <li class="works__skill">${card.technologies[2]}</li>
-        <li class="works__skill">${card.technologies[3]}</li>
-        <li class="works__skill">${card.technologies[4]}</li>
-        <li class="works__skill">${card.technologies[5]}</li>
       </ul>
       <p>${card.description1}</p>
       <p>${card.description2}</p>
@@ -114,5 +112,10 @@ const createMobilePopup = () => {
         </a>
       </div>
     `;
+
+    const mobilePopupElement = document.createElement('section');
+    mobilePopupElement.className = 'popup-mobile';
+    mobilePopupElement.innerHTML = mobilePopupHtml;
+    body.appendChild(mobilePopupElement);
   });
 };
