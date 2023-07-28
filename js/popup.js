@@ -148,9 +148,17 @@ const createDesktopPopup = () => {
       </ul>
       <p>${card.description1} ${card.description2}</p>
     `;
-    const desktopPopupElement = document.createElement("section");
-    desktopPopupElement.className = "popup-desktop";
+    const desktopPopupElement = document.createElement('section');
+    desktopPopupElement.className = 'popup-desktop';
     desktopPopupElement.innerHTML = desktopPopupHtml;
     body.appendChild(desktopPopupElement);
   });
 };
+
+const detailsLinks = document.querySelectorAll('.see-project');
+
+detailsLinks.forEach(link => {
+  if (window.innerWidth >= 768)
+    link.addEventListener('click', createDesktopPopup);
+  else link.addEventListener('click', createMobilePopup);
+});
