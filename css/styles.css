@@ -387,17 +387,24 @@ footer address::after {
   margin-bottom: 0.8rem;
 }
 
+.popup-mobile {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  background: #fff;
+}
 .pop-mobile-img {
   width: 100%;
 }
-
 .close-mobile-popup {
   position: absolute;
   top: 3.4rem;
   right: 3.5rem;
   cursor: pointer;
 }
-
 .popup-mobile h2 {
   font-size: 3.2rem;
   font-weight: 600;
@@ -419,34 +426,12 @@ footer address::after {
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
 }
-
 .link-btns {
   display: flex;
   gap: 1.8rem;
 }
-
 .popup-link {
   display: flex;
   justify-self: center;
   gap: 1.2rem;
-}
-
-.pop-desktop-img {
-  margin-bottom: 2.4rem;
-}
-
-.close-desktop-popup {
-  width: 2.4rem;
-  padding: 0.8rem;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  background: #ebecf0;
-  margin-bottom: 1.4rem;
-  margin-top: 2.4rem;
-}
-
-.row-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
