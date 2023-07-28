@@ -191,9 +191,8 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
     padding-bottom: 4.4rem;
     top: 0;
-    z-index: 20;
     overflow-y: scroll;
-    z-index: 2;
+    z-index: 1;
   }
 
   .img-div {
