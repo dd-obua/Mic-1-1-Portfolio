@@ -395,6 +395,7 @@ footer address::after {
   position: absolute;
   top: 0;
   z-index: 20;
+  background: #fff;
 }
 
 .pop-mobile-img {

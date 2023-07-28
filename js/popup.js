@@ -9,7 +9,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-1.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -21,7 +20,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-2.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -33,7 +31,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-3.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -45,7 +42,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-4.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -57,7 +53,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-5.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -69,7 +64,6 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-    featuredImage: "./img/featured/featured-6.jpg",
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveVersionLink: "https://dd-obua.github.io/Mic-Portfolio/",
     sourceLink: "https://github.com/dd-obua/Mic-Portfolio"
@@ -164,10 +158,9 @@ const createDesktopPopup = () => {
 
 const detailsLinks = document.querySelectorAll(".see-project");
 
-const matches = window.matchMedia("(min-width:768px)");
-
 detailsLinks.forEach((link) => {
-  if (matches) link.addEventListener("click", createDesktopPopup);
+  if (window.innerWidth >= 768)
+    link.addEventListener("click", createDesktopPopup);
   else link.addEventListener("click", createMobilePopup);
 });
 
@@ -203,3 +196,11 @@ detailsLinks.forEach((link) => {
 
 // if (desktopPopup.style.display === "block")
 //   cancelDesktopPopup.addEventListener("click", closeDesktopPopup);
+
+// featuredImage: "./img/featured/featured-1.jpg",
+
+{
+  /* <div class="featured-image">
+  <img src="${card.featuredImage}" alt="Featured image">
+</div> */
+}
