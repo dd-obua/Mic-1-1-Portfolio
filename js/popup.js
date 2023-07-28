@@ -83,10 +83,10 @@ cards.forEach((card, index) => {
       <a href="#" class="link see-project" data-index="${index}">See Project</a>
     </div>`;
 
-  const cardElement = document.createElement('article');
-  cardElement.className = 'works__card';
-  cardElement.innerHTML = cardElementHtml;
-  worksCards.appendChild(cardElement);
+  const mobilePopupElement = document.createElement('section');
+  mobilePopupElement.className = 'popup-mobile';
+  mobilePopupElement.innerHTML = mobilePopupHtml;
+  body.appendChild(mobilePopupElement);
 });
 
 const createMobilePopup = () => {
