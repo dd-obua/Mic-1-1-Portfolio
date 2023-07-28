@@ -390,3 +390,10 @@ footer address::after {
 .pop-mobile-img {
   width: 100%;
 }
+
+.close-mobile-popup {
+  position: absolute;
+  top: 3.4rem;
+  right: 3.5rem;
+  cursor: pointer;
+}
