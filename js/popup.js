@@ -162,10 +162,10 @@ const createDesktopPopup = () => {
 };
 
 const detailsLinks = document.querySelectorAll('.see-project');
-detailsLinks.forEach(link => {
-  if (window.innerWidth >= 768)
+detailsLinks.forEach((link) => {
+  if (window.innerWidth >= 768) {
     link.addEventListener('click', createDesktopPopup);
-  else link.addEventListener('click', createMobilePopup);
+  } else link.addEventListener('click', createMobilePopup);
 });
 
 const cancelMobilePopup = document.querySelector('.close-mobile-popup');
