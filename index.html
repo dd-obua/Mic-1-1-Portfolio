@@ -185,6 +185,54 @@
       <hr class="hr-bar">
     </address>
   </footer>
+
+  <section class="popup-mobile take-out">
+    <img src="./img/popup/close-mobile-popup.svg" alt="Mobile popup close icon" class="close-mobile-popup">
+    <img src="./img/popup/snapshot.png" alt="Mobile popup image" class="pop-mobile-img">
+    <h2>${card.popupTitle}</h2>
+    <ul>
+      <li class="works__skill">${card.technologies[0]}</li>
+      <li class="works__skill">${card.technologies[1]}</li>
+      <li class="works__skill">${card.technologies[2]}</li>
+    </ul>
+    <p>${card.description1}</p>
+    <p>${card.description2}</p>
+    <div class="link-btns">
+      <a href="${card.liveVersionLink}" target="_blank" class="popup-link">
+        <span>See live</span><img src="./img/popup/frame.png" alt="">
+      </a>
+      <a href="${card.sourceLink}" target="_blank" class="popup-link">
+        <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
+      </a>
+    </div>
+  </section>
+
+  <section class="popup-desktop">
+    <div class="img-div">
+      <img src="./img/popup/close-desktop-popup.svg" alt="Desktop popup close icon" class="close-desktop-popup">
+      <img src="./img/popup/snapshot-desktop.svg" alt="" class="pop-mobile-img">
+    </div>
+    <div class="row-1">
+      <h2>${card.popupTitle}</h2>
+      <div class="link-btns">
+        <a href="${card.liveVersionLink}" target="_blank" class="link popup-link">
+          <span>See live</span><img src="./img/popup/frame.png" alt="">
+        </a>
+        <a href="${card.sourceLink}" target="_blank" class="link popup-link">
+          <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li class="works__skill">${card.technologies[0]}</li>
+      <li class="works__skill">${card.technologies[1]}</li>
+      <li class="works__skill">${card.technologies[2]}</li>
+      <li class="works__skill">${card.technologies[3]}</li>
+      <li class="works__skill">${card.technologies[4]}</li>
+      <li class="works__skill">${card.technologies[5]}</li>
+    </ul>
+    <p>${card.description1} ${card.description2}</p>
+  </section>
 </body>
 
 </html>
