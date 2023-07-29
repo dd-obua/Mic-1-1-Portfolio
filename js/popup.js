@@ -9,6 +9,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -28,6 +29,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -47,6 +49,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -66,6 +69,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -85,6 +89,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -104,6 +109,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
       'CSS',
@@ -143,7 +149,7 @@ const createMobilePopup = () => {
     const mobilePopupHtml = `
       <img src="./img/popup/close-mobile-popup.svg" alt="Mobile popup close icon" class="close-mobile-popup">
       <img src="./img/popup/snapshot.png" alt="Mobile popup image" class="pop-mobile-img">
-      <h2>Keeping track of hundreds of components</h2>
+      <h2>${card.popupTitle}</h2>
       <ul>
         <li class="works__skill">${card.technologies[0]}</li>
         <li class="works__skill">${card.technologies[1]}</li>
@@ -172,11 +178,11 @@ const createDesktopPopup = () => {
   cards.forEach((card, index) => {
     const desktopPopupHtml = `
       <div class="img-div">
-      <img src="./img/popup/close-desktop-popup.svg" alt="Desktop popup close icon" class="close-desktop-popup">
-      <img src="./img/popup/snapshot-desktop.svg" alt="" class="pop-mobile-img">
+        <img src="./img/popup/close-desktop-popup.svg" alt="Desktop popup close icon" class="close-desktop-popup">
+        <img src="./img/popup/snapshot-desktop.svg" alt="" class="pop-mobile-img">
       </div>
       <div class="row-1">
-        <h2>Keeping track of hundreds of components</h2>
+        <h2>${card.popupTitle}</h2>
         <div class="link-btns">
           <a href="" class="link popup-link">
             <span>See live</span><img src="./img/popup/frame.png" alt="">
