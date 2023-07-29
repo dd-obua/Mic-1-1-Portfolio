@@ -464,3 +464,10 @@ footer address::after {
 .take-out {
   display: none;
 }
+
+.blur {
+  background: #c1c7d0;
+  /* opacity: 0.1; */
+  backdrop-filter: blur(90px);
+}
+
