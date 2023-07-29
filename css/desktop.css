@@ -177,7 +177,6 @@
     padding: 2.4rem 0;
   }
 
-  /*  */
   .popup-desktop {
     max-width: 92rem;
     padding: 0 2.4rem;
@@ -236,7 +235,6 @@
   }
 
   .popup-link {
-    align-self: right;
     font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
@@ -265,7 +263,6 @@
     align-items: center;
     border-radius: 0.8rem;
     background: #ebecf0;
-    border-radius: 0.8rem;
   }
 
   .popup-desktop p {
