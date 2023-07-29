@@ -390,11 +390,12 @@ footer address::after {
 .popup-mobile {
   width: 100%;
   position: fixed;
+  overflow-y: scroll;
+  background: #fff;
   padding: 1.6rem;
   border-radius: 1.6rem;
   top: 0;
   z-index: 2;
-  background: #fff;
 }
 .pop-mobile-img {
   width: 100%;
