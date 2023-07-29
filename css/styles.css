@@ -398,15 +398,18 @@ footer address::after {
   top: 0;
   z-index: 2;
 }
+
 .pop-mobile-img {
   width: 100%;
 }
+
 .close-mobile-popup {
   position: absolute;
   top: 3.4rem;
   right: 3.5rem;
   cursor: pointer;
 }
+
 .popup-mobile h2 {
   font-size: 3.2rem;
   font-weight: 600;
@@ -414,13 +417,16 @@ footer address::after {
   line-height: 4.4rem;
   padding: 1.2rem 0;
 }
+
 .popup-mobile ul {
   display: flex;
   margin-bottom: 1.2rem;
 }
+
 .popup-mobile li {
   margin-right: 0.8rem;
 }
+
 .popup-mobile p {
   text-align: left;
   font-size: 1.6rem;
