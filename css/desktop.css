@@ -276,4 +276,8 @@
     line-height: 3rem;
     text-align: justify;
   }
+
+  .take-out {
+    display: none;
+  }
 }
