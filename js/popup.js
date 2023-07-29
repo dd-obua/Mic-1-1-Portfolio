@@ -1,3 +1,5 @@
+const toBlur = document.querySelectorAll('body > :not(:nth-last-child(2))');
+
 const body = document.querySelector('body');
 const worksCards = document.querySelector('.works__cards');
 
@@ -153,14 +155,17 @@ cards.forEach((card, index) => {
 });
 
 const mobilePopup = document.querySelector('.popup-mobile');
+
 const createMobilePopup = () => {
   mobilePopup.classList.remove('take-out');
 };
 
 const desktopPopup = document.querySelector('.popup-desktop');
+
 const createDesktopPopup = () => {
   desktopPopup.classList.remove('take-out');
-  body.classList.add('blur');
+  body.style.background = '#c1c7d0';
+  toBlur.forEach(element => element.classList.add('blur'));
 };
 
 const detailsLinks = document.querySelectorAll('.see-project');
@@ -179,4 +184,10 @@ cancelMobilePopup.addEventListener('click', () => {
 
 cancelDesktopPopup.closest('.img-div').addEventListener('click', () => {
   desktopPopup.classList.add('take-out');
+  body.style.backgroundColor = '#fff';
+  body.style.backgroundImage = "url('../img/desktop/header-illustration.svg')";
+  body.style.backgroundSize = '100%';
+  body.style.backgroundPosition = 'top center';
+  body.style.backgroundRepeat = 'no-repeat';
+  toBlur.forEach(element => element.classList.remove('blur'));
 });
