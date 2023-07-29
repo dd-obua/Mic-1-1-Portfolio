@@ -158,10 +158,10 @@ const createMobilePopup = () => {
       <p>${card.description1}</p>
       <p>${card.description2}</p>
       <div class="link-btns">
-        <a href="${liveVersionLink}" class="link popup-link">
+        <a href="${liveVersionLink}${card.liveVersionLink}" class="link popup-link">
           <span>See live</span><img src="./img/popup/frame.png" alt="">
         </a>
-        <a href="${sourceLink}" class="link popup-link">
+        <a href="" class="link popup-link">
           <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
         </a>
       </div>
@@ -183,10 +183,10 @@ const createDesktopPopup = () => {
       <div class="row-1">
         <h2>${card.popupTitle}</h2>
         <div class="link-btns">
-          <a href="" class="popup-link">
+          <a href="" class="link popup-link">
             <span>See live</span><img src="./img/popup/frame.png" alt="">
           </a>
-          <a href="" class="popup-link">
+          <a href="" class="link popup-link">
             <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
           </a>
         </div>
