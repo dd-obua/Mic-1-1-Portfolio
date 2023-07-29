@@ -9,6 +9,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/1.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -29,6 +30,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/2.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -49,6 +51,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/3.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -69,6 +72,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/4.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -89,6 +93,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/5.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -109,6 +114,7 @@ const cards = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
     description2:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+    featuredImage: './img/featured/6.jpg',
     popupTitle: 'Keeping track of hundreds of components',
     technologies: [
       'Ruby on Rails',
@@ -126,6 +132,9 @@ const cards = [
 
 cards.forEach((card, index) => {
   const cardElementHtml = `
+    <div class="img-container">
+      <img src="${card.featuredImage}" alt="Featured image" class="featured-img">
+    </div>
     <div class="information">
       <h3 class="works__stories--heading">${card.name1} <span class="gain-glory">${card.name2}</span></h3>
       <ul class='works__categories'>
@@ -154,7 +163,6 @@ const createDesktopPopup = () => {
 };
 
 const detailsLinks = document.querySelectorAll('.see-project');
-
 detailsLinks.forEach(link => {
   if (window.innerWidth >= 768)
     link.addEventListener('click', createDesktopPopup);
