@@ -393,7 +393,7 @@ footer address::after {
   border-radius: 1.6rem;
   position: absolute;
   top: 0;
-  z-index: 20;
+  z-index: 2;
   background: #fff;
 }
 .pop-mobile-img {
