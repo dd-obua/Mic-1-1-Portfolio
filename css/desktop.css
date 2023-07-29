@@ -177,6 +177,7 @@
     padding: 2.4rem 0;
   }
 
+  /*  */
   .popup-desktop {
     max-width: 92rem;
     padding: 0 2.4rem;
@@ -212,14 +213,14 @@
     cursor: pointer;
     background: #ebecf0;
     margin-bottom: 1.4rem;
-    margin-top: 7.8rem;
+    margin-top: 12rem;
   }
 
   .row-1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin:2.4rem 0 2rem;
+    margin: 2.4rem 0 2rem;
   }
 
   .popup-desktop h2 {
