@@ -143,6 +143,16 @@ cards.forEach((card, index) => {
   worksCards.appendChild(cardElement);
 });
 
+const mobilePopup = document.querySelector('.popup-mobile');
+const createMobilePopup = () => {
+  mobilePopup.classList.remove('take-out');
+};
+
+const desktopPopup = document.querySelector('.popup-desktop');
+const createDesktopPopup = () => {
+  desktopPopup.classList.remove('take-out');
+};
+
 const detailsLinks = document.querySelectorAll('.see-project');
 
 detailsLinks.forEach(link => {
