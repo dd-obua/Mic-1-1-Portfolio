@@ -216,9 +216,12 @@
   }
 
   .row-1 {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: 1.5fr auto;
+    align-items: start;
     margin: 2.4rem 0 2rem;
   }
 
@@ -228,7 +231,6 @@
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 4.4rem;
-    width: 68%;
   }
 
   .link-btns {
@@ -237,16 +239,14 @@
   }
 
   .popup-link {
-    color: #fff;
-    text-decoration: none;
-    width: 8rem;
-    background: #36b37e;
+    align-self: right;
+    font-size: 1.5rem;
     font-weight: 600;
-    padding: 0.6rem;
+    color: #fff;
+    background: #36b37e;
+    padding: 1rem;
     border-radius: 0.8rem;
-    display: flex;
-    justify-content: center;
-    gap: 0.6rem;
+    gap: 0.4rem;
   }
 
   .popup-desktop ul {
