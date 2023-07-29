@@ -134,7 +134,7 @@ cards.forEach((card, index) => {
         <li class='works__skill'>${card.technologies[2]}</li>
         <li class='works__skill'>${card.technologies[3]}</li>
       </ul>
-      <a href="#" target="_blank" class="link see-project" data-index="${index}">See Project</a>
+      <a href="#" class="link see-project" data-index="${index}">See Project</a>
     </div>`;
 
   const cardElement = document.createElement('article');
