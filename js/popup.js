@@ -143,7 +143,6 @@ cards.forEach((card, index) => {
   worksCards.appendChild(cardElement);
 });
 
-// Create mobile popup
 const createMobilePopup = () => {
   cards.forEach((card, index) => {
     const mobilePopupHtml = `
@@ -159,9 +158,10 @@ const createMobilePopup = () => {
       <p>${card.description2}</p>
       <div class="link-btns">
         <a href="${liveVersionLink}${card.liveVersionLink}" class="link popup-link">
+        <a href="${card.liveVersionLink}" class="popup-link">
           <span>See live</span><img src="./img/popup/frame.png" alt="">
         </a>
-        <a href="" class="link popup-link">
+        <a href="" class="popup-link">
           <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
         </a>
       </div>
