@@ -187,9 +187,8 @@
     justify-content: center;
     align-items: flex-start;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-
     padding-bottom: 4.4rem;
-    position: absolute;
+    position: fixed;
     right: 50%;
     top: 0.5vh;
     transform: translateX(50%);
@@ -213,7 +212,7 @@
     cursor: pointer;
     background: #ebecf0;
     margin-bottom: 1.4rem;
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
 
   .row-1 {
