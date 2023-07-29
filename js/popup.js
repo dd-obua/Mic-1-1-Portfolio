@@ -165,11 +165,11 @@ const desktopPopup = document.querySelector('.popup-desktop');
 const createDesktopPopup = () => {
   desktopPopup.classList.remove('take-out');
   body.style.background = '#c1c7d0';
-  toBlur.forEach(element => element.classList.add('blur'));
+  toBlur.forEach((element) => element.classList.add('blur'));
 };
 
 const detailsLinks = document.querySelectorAll('.see-project');
-detailsLinks.forEach(link => {
+detailsLinks.forEach((link) => {
   if (window.innerWidth >= 768) {
     link.addEventListener('click', createDesktopPopup);
   } else link.addEventListener('click', createMobilePopup);
@@ -189,5 +189,5 @@ cancelDesktopPopup.closest('.img-div').addEventListener('click', () => {
   body.style.backgroundSize = '100%';
   body.style.backgroundPosition = 'top center';
   body.style.backgroundRepeat = 'no-repeat';
-  toBlur.forEach(element => element.classList.remove('blur'));
+  toBlur.forEach((element) => element.classList.remove('blur'));
 });
