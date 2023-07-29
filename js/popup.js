@@ -159,10 +159,12 @@ const createMobilePopup = () => {
 const desktopPopup = document.querySelector('.popup-desktop');
 const createDesktopPopup = () => {
   desktopPopup.classList.remove('take-out');
+  document.querySelector('body').style.background = '#c1c7d0';
+  document.querySelector('body').style.backdropFilter = 'blur(100px)';
 };
 
 const detailsLinks = document.querySelectorAll('.see-project');
-detailsLinks.forEach((link) => {
+detailsLinks.forEach(link => {
   if (window.innerWidth >= 768) {
     link.addEventListener('click', createDesktopPopup);
   } else link.addEventListener('click', createMobilePopup);

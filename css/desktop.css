@@ -178,8 +178,11 @@
   }
 
   .popup-desktop {
-    max-width: 92rem;
+    max-width: 64%;
+    height: 84vh;
     padding: 0 2.4rem;
+    padding-top: 9.6rem;
+    border-radius: 0.8rem;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -189,9 +192,8 @@
     padding-bottom: 4.4rem;
     position: fixed;
     right: 50%;
-    top: 0.5vh;
+    top: 6vh;
     transform: translateX(50%);
-    height: 99vh;
     overflow-y: scroll;
     z-index: 1;
   }
