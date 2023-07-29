@@ -190,7 +190,7 @@
     padding-bottom: 4.4rem;
     position: absolute;
     right: 50%;
-    top: .5vh;
+    top: 0.5vh;
     transform: translateX(50%);
     height: 99vh;
     overflow-y: scroll;
@@ -206,6 +206,7 @@
   }
 
   .pop-desktop-img {
+    display: block;
     margin-bottom: 2.4rem;
   }
 
@@ -223,14 +224,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin:2.4rem 0 2rem;
   }
 
   .popup-desktop h2 {
+    text-align: left;
     color: #172b4d;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     font-weight: 700;
-    margin-top: 0;
-    width: 65%;
+    line-height: 4.4rem;
+    width: 68%;
   }
 
   .link-btns {
