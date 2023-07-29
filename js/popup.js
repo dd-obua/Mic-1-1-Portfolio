@@ -134,7 +134,7 @@ cards.forEach((card, index) => {
         <li class='works__skill'>${card.technologies[2]}</li>
         <li class='works__skill'>${card.technologies[3]}</li>
       </ul>
-      <a href="#" class="link see-project" data-index="${index}">See Project</a>
+      <a href="#" target="_blank" class="link see-project" data-index="${index}">See Project</a>
     </div>`;
 
   const cardElement = document.createElement('article');
@@ -157,11 +157,10 @@ const createMobilePopup = () => {
       <p>${card.description1}</p>
       <p>${card.description2}</p>
       <div class="link-btns">
-        <a href="${liveVersionLink}${card.liveVersionLink}" class="link popup-link">
-        <a href="${card.liveVersionLink}" class="popup-link">
+        <a href="${card.liveVersionLink}" target="_blank" class="popup-link">
           <span>See live</span><img src="./img/popup/frame.png" alt="">
         </a>
-        <a href="" class="popup-link">
+        <a href="${card.sourceLink}" target="_blank" class="popup-link">
           <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
         </a>
       </div>
@@ -183,10 +182,10 @@ const createDesktopPopup = () => {
       <div class="row-1">
         <h2>${card.popupTitle}</h2>
         <div class="link-btns">
-          <a href="" class="link popup-link">
+          <a href="${card.liveVersionLink}" target="_blank" class="link popup-link">
             <span>See live</span><img src="./img/popup/frame.png" alt="">
           </a>
-          <a href="" class="link popup-link">
+          <a href="${card.sourceLink}" target="_blank" class="link popup-link">
             <span>See source </span><img src="./img/popup/github-icon.svg" alt="">
           </a>
         </div>
