@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: Mobile menu</b></h3>
+  <h3><b>Portfolio: Details Popup Window</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -30,7 +30,7 @@
 
 # 📖 Portfolio: Mobile version <a name="about-project"></a>
 
-**Portfolio: Validate contacat form** is where I validate email input to check if it's in lowercase.
+**Portfolio: Details Popup Window** is where I implement details to my projects accessible by chicking the see project button.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,6 +70,8 @@
 - **A desktop version - responsive to screen sizes from 768px and larger**
 - **A Mobile menu**
 - **Beautiful background images**
+- **Works/Projects section generated dynamically  using JavaScript**
+- **Popup launcher window lanched by clicking 'See Project' button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,6 +154,7 @@ You can deploy this project using:
 - [ ] **A modal window for the desktop version**
 - [ ] **Form validation**
 - [ ] **Preserving form data using local storage**
+- [ ] **Generating the modal windows dynamically using JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
