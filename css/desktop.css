@@ -176,4 +176,107 @@
     border-top: 1px solid #dfe1e6;
     padding: 2.4rem 0;
   }
+
+  .popup-desktop {
+    max-width: 64%;
+    height: 84vh;
+    padding: 0 2.4rem;
+    padding-top: 9.6rem;
+    border-radius: 0.8rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 4.4rem;
+    position: fixed;
+    right: 50%;
+    top: 6vh;
+    transform: translateX(50%);
+    overflow-y: scroll;
+    z-index: 1;
+  }
+
+  .img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7.8rem;
+    padding-top: 7.8rem;
+  }
+
+  .close-desktop-popup {
+    width: 2.4rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background: #ebecf0;
+    margin-bottom: 1.4rem;
+    margin-top: 15rem;
+  }
+
+  .row-1 {
+    display: grid;
+    grid-template-columns: 1.5fr auto;
+    align-items: start;
+    margin: 2.4rem 0 2rem;
+  }
+
+  .popup-desktop h2 {
+    text-align: left;
+    color: #172b4d;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+  }
+
+  .link-btns {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .popup-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    background: #36b37e;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    gap: 0.4rem;
+  }
+
+  .popup-desktop ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 3.6rem;
+  }
+
+  .popup-desktop li {
+    color: #344563;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 0.8rem;
+    background: #ebecf0;
+  }
+
+  .popup-desktop p {
+    width: 100%;
+    color: #344563;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: justify;
+  }
+
+  .take-out {
+    display: none;
+  }
 }
