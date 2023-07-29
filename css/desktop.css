@@ -185,12 +185,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    position: absolute;
     right: 50%;
+    top: 1%;
     transform: translateX(50%);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
     padding-bottom: 4.4rem;
-    top: 0;
+    position: fixed;
+    height: 98%;
     overflow-y: scroll;
     z-index: 1;
   }
