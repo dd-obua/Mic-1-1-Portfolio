@@ -1,5 +1,4 @@
 const worksCards = document.querySelector('.works__cards');
-const body = document.querySelector('body');
 
 const cards = [
   {
