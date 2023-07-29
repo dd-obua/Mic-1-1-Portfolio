@@ -160,3 +160,14 @@ detailsLinks.forEach(link => {
     link.addEventListener('click', createDesktopPopup);
   else link.addEventListener('click', createMobilePopup);
 });
+
+const cancelMobilePopup = document.querySelector('.close-mobile-popup');
+const cancelDesktopPopup = document.querySelector('.close-desktop-popup');
+
+cancelMobilePopup.addEventListener('click', () => {
+  mobilePopup.classList.add('take-out');
+});
+
+cancelDesktopPopup.closest('.img-div').addEventListener('click', () => {
+  desktopPopup.classList.add('take-out');
+});
