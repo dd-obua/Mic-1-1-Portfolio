@@ -216,9 +216,6 @@
   }
 
   .row-1 {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: flex-start; */
     display: grid;
     grid-template-columns: 1.5fr auto;
     align-items: start;
