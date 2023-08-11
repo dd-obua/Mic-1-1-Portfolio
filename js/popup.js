@@ -1,5 +1,4 @@
 const toBlur = document.querySelectorAll('body > :not(:nth-last-child(2))');
-
 const body = document.querySelector('body');
 const worksCards = document.querySelector('.works__cards');
 
