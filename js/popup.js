@@ -1,8 +1,4 @@
 const toBlur = document.querySelectorAll('body > :not(:nth-last-child(2))');
-<<<<<<< HEAD
-
-=======
->>>>>>> fe86b5c (Remove extra white space)
 const body = document.querySelector('body');
 const worksCards = document.querySelector('.works__cards');
 
