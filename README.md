@@ -91,7 +91,7 @@ To get a local copy up and running, follow these steps.
 
 - Click this [link](https://github.com/dd-obua/Mic-Portfolio) to open the project on GitHub
 - Click on the Code button to copy the clone-link
-- Use `git clone git@github.com:dd-obua/Mic-Portfolio.git` command to clone the project.
+- Use `git clone git@github.com:dd-obua/obua-portfolio.git` command to clone the project.
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - `cd your-folder`
-- `git clone git@github.com:dd-obua/Mic-Portfolio.git`
+- `git clone git@github.com:dd-obua/obua-portfolio.git`
 
 ### Install
 
